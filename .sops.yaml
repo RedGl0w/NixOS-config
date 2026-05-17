@@ -1,0 +1,7 @@
+keys:
+  - &carbonara age17psjvm0v3wxhlhtgtnqc53l8s6pjxgyyg29gg6zetznyppu8fewssv9c0p
+creation_rules:
+  - path_regex : hosts/carbonara/secrets.yml$
+    key_groups :
+      - age:
+        - *carbonara
