@@ -43,7 +43,6 @@
           modules = [
             { nixpkgs.hostPlatform = system; nixpkgs.config.allowUnfree = true; }
             disko.nixosModules.disko
-            stylix.nixosModules.stylix
             inputs.home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;
@@ -58,6 +57,7 @@
     {
       nixosConfigurations = {
         carbonara = mkSystem { host = "carbonara"; }; # Laptop
+        tiramisu = mkSystem { host = "tiramisu"; }; # NAS
       };
       # formatter here ?
     };

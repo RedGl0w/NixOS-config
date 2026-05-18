@@ -1,7 +1,12 @@
 keys:
   - &carbonara age17psjvm0v3wxhlhtgtnqc53l8s6pjxgyyg29gg6zetznyppu8fewssv9c0p
+  - &tiramisu age1ts0cuckr6u4c7syqamvs9rvj9k0zcavg572yz8ly2ed7ztl85scstmvue9
 creation_rules:
   - path_regex : hosts/carbonara/secrets.yml$
     key_groups :
       - age:
         - *carbonara
+  - path_regex : hosts/tiramisu/secrets.yml$
+    key_groups :
+      - age:
+        - *tiramisu
