@@ -6,6 +6,7 @@
       extensions = with pkgs.vscode-extensions; [
         # Languages support
         ms-vscode.cpptools-extension-pack # C/C++
+        ms-vscode.cpptools # C/C++
         ms-python.python # python
         ocamllabs.ocaml-platform # OCaml
         bbenoist.nix # Nix
@@ -28,7 +29,8 @@
 
       userSettings = {
         "editor.tabSize" = 2;
-        "editor.formatOnSave" = true;
+	"editor.formatOnSave" = false;
+        #"editor.formatOnSave" = true;
         "editor.fontLigatures" = true;
       };
     };

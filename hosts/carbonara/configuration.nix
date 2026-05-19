@@ -11,6 +11,7 @@
     ../../modules/system/local.nix
     ../../modules/system/ly.nix
     ../../modules/system/niri.nix
+    ../../modules/system/nix-ld.nix
     ../../modules/system/networking.nix
     ../../modules/system/printscan.nix
     ../../modules/system/sops.nix
