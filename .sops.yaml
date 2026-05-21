@@ -6,7 +6,7 @@ creation_rules:
     key_groups :
       - age:
         - *carbonara
-  - path_regex : hosts/tiramisu/secrets.yml$
+  - path_regex : hosts/tiramisu/.*$
     key_groups :
       - age:
         - *tiramisu
