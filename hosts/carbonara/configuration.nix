@@ -33,6 +33,7 @@
       ../../modules/home/kitty.nix
       ../../modules/home/languages.nix
       ../../modules/home/media.nix
+      ../../modules/home/nextcloud.nix
       ../../modules/home/niri.nix
       ../../modules/home/noctalia.nix
       ../../modules/home/ocaml.nix
