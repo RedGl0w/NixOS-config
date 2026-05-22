@@ -15,5 +15,14 @@
       "org.freedesktop.impl.portal.FileChooser" = "gtk";
     };
   };
+  environment.systemPackages = with pkgs; [
+    gsettings-desktop-schemas
+    gtk3
+  ];
+
+
+  programs.dconf.enable = true;
+	services.dbus.enable = true;
+
   services.libinput.enable = true;
 }

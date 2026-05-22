@@ -2,12 +2,13 @@
 {
   # TODO : maybe change to use options in modules ?
   imports = [
-    stylix.nixosModules.stylix
+    inputs.stylix.nixosModules.stylix
     ./hardware-configuration.nix
     ../../modules/system/bootloader.nix
     ../../modules/system/bluetooth.nix
     ../../modules/system/gc.nix
     ../../modules/system/gnome.nix
+    ../../modules/system/keyd.nix
     ../../modules/system/local.nix
     ../../modules/system/ly.nix
     ../../modules/system/niri.nix
@@ -28,8 +29,9 @@
       ../../modules/home/editor.nix
       ../../modules/home/firefox.nix
       ../../modules/home/git.nix
-      ../../modules/home/kitty.nix
       ../../modules/home/hdl.nix
+      ../../modules/home/kitty.nix
+      ../../modules/home/languages.nix
       ../../modules/home/media.nix
       ../../modules/home/niri.nix
       ../../modules/home/noctalia.nix
